@@ -15,8 +15,25 @@ a {
 .row {
   width: 100%;
   max-width: 1280px;
-  padding: 0 24px;
+  padding: 0;
   margin: 0 auto;
+}
+
+.purple {
+  color: rgb(100, 21, 255);
+}
+
+.btn {
+  background-color: rgb(100, 21, 255);
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 9999px;
+  font-weight: 700;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 48px;
 }
 
 /*
@@ -85,4 +102,99 @@ img {
   background-color: rgb(52, 14, 128);
   color: white;
   text-decoration: none;
+}
+
+/*
+
+HEADER
+
+*/
+
+header {
+  height: calc(100vh - 100px);
+}
+
+.container {
+  height: 100%;
+  padding: 80px 0;
+}
+
+.header__description {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__left--column {
+  width: 100%;
+  max-width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.header__para {
+  font-size: 18px;
+  margin: 40px 0;
+}
+
+.header__inputs {
+  margin-bottom: 64px;
+  position: relative;
+}
+
+.header__input {
+  width: 80%;
+  padding: 20px 192px 20px 32px;
+  border-radius: 9999px;
+  border: 2px solid #e5e7eb;
+  transition: all 300ms ease;
+  opacity: 0.9;
+  font-weight: 500;
+  font-size: 100%;
+}
+
+.header__input:hover {
+  border: 2px solid gray;
+}
+
+.header__input:active {
+  border: 2px solid red;
+}
+
+.btn__header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: 10px 22% 8px 10px;
+  border: none;
+}
+
+.customers {
+  text-transform: uppercase;
+  color: rgb(160, 174, 192);
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.customer__logos {
+  margin: 16px 0 0;
+  padding: 0 128px 0 0;
+  opacity: 0.5;
+}
+
+.header__right--column {
+  width: 100%;
+  max-width: 60%;
+}
+
+.header__img--wrapper {
+  width: 100%;
+  max-width: 800px;
+}
+
+.header__img {
+  width: 100%;
 }
